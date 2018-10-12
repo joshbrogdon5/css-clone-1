@@ -12,3 +12,10 @@ img.logo{
     width: 142px;
     height: 43px;
 }
+div.intro{
+    text-align: center;
+    background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3190/assets/images/hero/hero-bg--home.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
