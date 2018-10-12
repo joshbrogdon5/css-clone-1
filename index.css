@@ -16,18 +16,18 @@ nav{
     flex-direction: row;
     position: fixed;
 }
+div.navContent_container{
+    margin: auto;
+}
 div.navContent{
+    width: 100%;    
     display: flex;
     flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 ul.navMainUL{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;    
+    list-style-type: none;
 }
 img.logo{
     width: 142px;
@@ -48,6 +48,13 @@ ul.dropdown{
 }
 li.dropdown:hover .dropdown{
     display: block;
+}
+a.main_a{
+    margin: 5px;
+    padding: 5px;
+}
+a.main_a:hover{
+    cursor: pointer;
 }
 
 
