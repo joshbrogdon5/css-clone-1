@@ -1,7 +1,7 @@
-h1{
-    color: #343434;
+*{
+    box-sizing: border-box;
 }
-img{
+img.logo{
     width: 142px;
     height: 43px;
 }
