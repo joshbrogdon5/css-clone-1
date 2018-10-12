@@ -1,6 +1,13 @@
 *{
     box-sizing: border-box;
 }
+main{
+    display: block;
+}
+nav{
+    width: 100%;
+    background-color: #fff;
+}
 img.logo{
     width: 142px;
     height: 43px;
