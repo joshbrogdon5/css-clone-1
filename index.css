@@ -7,6 +7,8 @@ main{
 nav{
     width: 100%;
     background-color: #fff;
+    display: block;
+    position: fixed;
 }
 img.logo{
     width: 142px;
