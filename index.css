@@ -40,22 +40,14 @@ div.intro{
     background-position: center;
     color: #fff;
 }
-li.fullTime_dropdown{
+li.dropdown{
     display: inline-block;
 }
-ul.fullTime_dropdown{
+ul.dropdown{
     display: none;
 }
-li.fullTime_dropdown:hover .fullTime_dropdown{
+li.dropdown:hover .dropdown{
     display: block;
 }
-li.prepare_dropdown{
-    display: inline-block;
-}
-ul.prepare_dropownUL{
-    display: none;
-}
-li.prepare_dropdown:hover .prepare_dropownUL{
-    display: block;
-}
+
 
