@@ -19,10 +19,15 @@ nav{
 div.navContent{
     display: flex;
     flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 ul.navMainUL{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;    
 }
 img.logo{
     width: 142px;
@@ -42,6 +47,15 @@ ul.fullTime_dropdown{
     display: none;
 }
 li.fullTime_dropdown:hover .fullTime_dropdown{
+    display: block;
+}
+li.prepare_dropdown{
+    display: inline-block;
+}
+ul.prepare_dropownUL{
+    display: none;
+}
+li.prepare_dropdown:hover .prepare_dropownUL{
     display: block;
 }
 
