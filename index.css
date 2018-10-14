@@ -45,6 +45,8 @@ li.dropdown{
 }
 ul.dropdown{
     display: none;
+    position: absolute;
+    list-style-type: none;
 }
 li.dropdown:hover .dropdown{
     display: block;
@@ -55,6 +57,9 @@ a.main_a{
 }
 a.main_a:hover{
     cursor: pointer;
+}
+ul > li{
+    list-style-type: none;    
 }
 ul > li > a:hover{
     cursor: pointer;
