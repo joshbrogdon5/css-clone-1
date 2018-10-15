@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 :root{
     
@@ -28,17 +30,15 @@ ul.navMainUL{
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 12px;
 }
 img.logo{
     width: 142px;
     height: 43px;
-}
-div.intro{
-    text-align: center;
-    background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3190/assets/images/hero/hero-bg--home.jpg");
-    background-size: cover;
-    background-position: center;
-    color: #fff;
 }
 li.dropdown{
     display: inline-block;
@@ -81,3 +81,24 @@ button.applybtn:hover{
     transition: background-color .3s, box-shadow .3s;    
 }
 
+div.intro{
+    text-align: center;
+    background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3190/assets/images/hero/hero-bg--home.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 200px 0 100px 0;
+}
+div.intro-content{
+    width: 100%;
+}
+h1.introH1{
+    font-size: 2.625rem;
+    margin: 0 0 1.5rem;
+}
+p.introP{
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-bottom: 2.25rem;
+    margin-top: 1.5rem;
+}
