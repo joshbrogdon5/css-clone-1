@@ -138,3 +138,53 @@ button.whoAreWe:hover{
     background-color: rgb(255, 255, 255);
     transition: background-color .3s, color .3s;
 }
+div.reviews{
+    background-color: #efefef;
+}
+div.reviews-container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 62.5rem;
+}
+div.reviews-content{
+    padding-left: .9375em;
+    padding-right: .9375em;
+    width: 100%;
+    float: left;
+}
+section.review-list-wrapper{
+    padding: 1.8rem 0;
+}
+ul.reviewsUL{
+    display: flex;
+    flex-direction: row;
+}
+li.review-list-item{
+    margin-left: 2.25rem;
+    padding-left: 2.25rem;
+    line-height: 1.7rem;
+    border-left: 1px solid #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+li.review-list-itemDif{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+img.reviewImg1{
+    width: 200px;
+}
+img.reviewImg2{
+    width: 150px;
+}
+img.reviewImg3{
+    width: 70px;
+}
