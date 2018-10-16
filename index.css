@@ -194,6 +194,33 @@ section.content-section{
 header.content-section-header{
     margin-bottom: 33px;
 }
+blockquote{
+    text-align: center;
+    line-height: 1.5rem;
+}
+h2.logo-title{
+    margin-bottom: 5px;
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+}
+blockquote > cite{
+    width: 100%;
+    margin-top: 10px !important;
+}
+ul.logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+li.logo-item{
+    flex-basis: 20%;
+    padding: 13px;    
+}
 div.logo-div{
     box-shadow: 1px 1px 5px 0 rgba(0,0,0,.3);
+    width: 168px;
+    height: 92px;
+}
+img.logo-item-image{
+    width: 100%;
 }
