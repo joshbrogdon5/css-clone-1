@@ -193,12 +193,13 @@ section.content-section{
 }
 header.content-section-header{
     margin-bottom: 33px;
+    text-align: center;
 }
 blockquote{
     text-align: center;
     line-height: 1.5rem;
 }
-h2.logo-title{
+blockquote h2.content-section-title{
     margin-bottom: 5px;
     font-size: 2.25rem;
     line-height: 3.375rem;
@@ -223,4 +224,13 @@ div.logo-div{
 }
 img.logo-item-image{
     width: 100%;
+}
+h2.content-section-title{
+    margin-bottom: 1.5rem;
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+}
+p.content-section-intro{
+    margin: 0 auto;
+    max-width: 90%;
 }
