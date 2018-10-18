@@ -269,5 +269,22 @@ button.learn-button{
     border-radius: 2px;
 }
 section.content-section-orange{
+    flex-basis: 350px;
+}
+div.article-container-orange{
+    width: 60%;
     float: right;
+}
+div.text-container-orange{
+    text-align: center;
+}
+div.text-container-blue{
+    text-align: center;
+}
+div.article-container-green{
+    width: 60%;
+    float: left;
+}
+div.text-container-green{
+    text-align: center;
 }
