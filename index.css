@@ -3,9 +3,6 @@
     margin: 0;
     padding: 0;
 }
-:root{
-    
-}
 main{
     display: flex;
     flex-direction: column;
@@ -233,4 +230,44 @@ h2.content-section-title{
 p.content-section-intro{
     margin: 0 auto;
     max-width: 90%;
+}
+div.learning-container{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    width: 100%;
+}
+a.city-link{
+    color: #fff;
+}
+div.learning-container-orange{
+    background-color: #de7c01;
+    width: 38%;
+    padding: 1.5rem;
+}
+div.learning-container-blue{
+    background-color: #0090d9;
+    width: 24%;
+    padding: 1.5rem;
+}
+div.learning-container-green{
+    background-color: #00b298;
+    width: 38%;
+    padding: 1.5rem;
+}
+h1.learning-h1{
+    font-size: 1.5rem;
+}
+h2.learning-h2{
+    font-size: 1.125rem;
+}
+button.learn-button{
+    border: 1px solid #fff;
+    background-color: transparent;
+    padding: 9px 24px;
+    color: #fff;
+    border-radius: 2px;
+}
+section.content-section-orange{
+    float: right;
 }
