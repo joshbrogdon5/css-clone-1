@@ -417,7 +417,8 @@ ul.featured-section{
 }
 li.featured-item{
     width: 32%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 img.featured-section-background{
     position: absolute;
@@ -443,4 +444,14 @@ span.featured-section-text{
 }
 div.getting-started{
     background-image: url(https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3190/assets/images/hero/hero-bg--home-alt.jpg);
+    text-align: center;
+}
+h1.getting-started-title{
+    font-size: 2.625rem;
+    line-height: 3.75rem;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-family: "Merriweather",Georgia,serif;
+    color: #fff;
+    margin: 0 0 1.5rem;
 }
