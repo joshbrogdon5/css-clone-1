@@ -487,8 +487,21 @@ button.campus-tour-btn{
     padding: 9px 24px;
     margin-left: 15px;
 }
+div.news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
 div.news-itemDif{
-    
+    padding-right: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(20%);
+}
+div.news-item{
+
 }
 img.news-item-logo{
     margin-left: auto;
@@ -500,6 +513,5 @@ article.news-content-container{
     flex-direction: column;
     flex-grow: 1;
     justify-content: space-between;
-    width: 24%;
     text-align: center;
 }
