@@ -445,6 +445,9 @@ span.featured-section-text{
 div.getting-started{
     background-image: url(https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3190/assets/images/hero/hero-bg--home-alt.jpg);
     text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0px;
 }
 h1.getting-started-title{
     font-size: 2.625rem;
@@ -454,4 +457,33 @@ h1.getting-started-title{
     font-family: "Merriweather",Georgia,serif;
     color: #fff;
     margin: 0 0 1.5rem;
+}
+div.getting-started-buttons-container{
+    margin-top: 2.25rem;
+    text-align: center;
+}
+button.admission-process-btn{
+    color: #fff;
+    background-color: rgb(222, 124, 1);
+    border: 1px solid rgb(222, 124, 1);
+    max-width: 260px;
+    width: 100%;
+    font-weight: 600;
+    font-size: .96rem;
+    padding: 9px 24px;
+    border-radius: 2px;
+    height: 41px;
+}
+button.campus-tour-btn{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    max-width: 260px;
+    width: 100%;
+    height: 41px;
+    font-weight: 600;
+    font-size: .96rem;
+    padding: 9px 24px;
+    margin-left: 15px;
 }
