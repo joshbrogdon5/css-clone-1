@@ -407,3 +407,37 @@ cite.quote-author{
     text-align: center;
     color: #0090d9;
 }
+ul.featured-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    overflow: hidden;
+}
+li.featured-item{
+    width: 32%;
+    margin-bottom: 20px;
+}
+img.featured-section-background{
+    position: absolute;
+    z-index: -1;
+    width: 310px;
+    height: 160px;
+    object-fit: cover;
+}
+a.featured-section{
+    font-size: 1.125rem;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(0,0,0,.8);
+    display: flex;
+    align-items: center;
+    min-height: 160px;
+    line-height: 1.6875rem;
+}
+span.featured-section-text{
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+}
