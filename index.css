@@ -603,3 +603,15 @@ nav.footer-nav{
     justify-content: space-between;
     color: #fff;
 }
+li.footer-item-logo{
+    height: 35px;
+    width: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+img.icon{
+    height: 30px;
+    width: 30px;
+}
