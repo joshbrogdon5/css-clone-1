@@ -674,3 +674,25 @@ img.linkedin-icon{
     height: 20px;
     width: 20px;
 }
+div.footer-bottom{
+    padding: 1.5rem 0;
+    background: #0078b5;
+    border-top: 1px solid #4aaded;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+div.footer-copyright{
+    color: #fff;
+}
+p.footer-copyright-text{
+    float: left;
+    font-size: .7rem;
+}
+div.footer-copyright-privacy{
+    margin-right: 85px;
+    float: right;
+}
+p.terms{
+    font-size: .7rem;
+}
