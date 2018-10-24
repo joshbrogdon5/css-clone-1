@@ -114,13 +114,15 @@ span.dropdown-span{
     letter-spacing: 1.5px;
     color: #3e3934;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 li.submenu{
     padding: 10px 0;
 }
 ul.submenu-ul{
     border-top: 1px solid #cccccc;  
-    margin-right: 15px;   
+    margin-right: 15px; 
+    margin-top: 15px;  
 }
 li.nested-list-item{
     padding: 10px;
@@ -258,12 +260,17 @@ li.review-list-itemDif{
 }
 img.reviewImg1{
     width: 200px;
+    margin-top: 15px;
 }
 img.reviewImg2{
     width: 150px;
 }
 img.reviewImg3{
     width: 70px;
+}
+strong.review-list-title{
+    font-size: 1.125rem;
+    color: #666159;
 }
 section.content-section{
     padding: 50px 0 60px;
@@ -511,7 +518,7 @@ blockquote.quote-block-reverse::before{
     height: 0;
     left: 47%;
     position: absolute;
-    bottom: -5%
+    bottom: -4%
 }
 p.quote-message{
     width: 100%;
