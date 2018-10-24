@@ -571,6 +571,7 @@ div.getting-started{
     background-position: center;
     background-repeat: no-repeat;
     padding: 100px 0px;
+    background-size: cover;
 }
 h1.getting-started-title{
     font-size: 2.625rem;
@@ -596,6 +597,11 @@ button.admission-process-btn{
     padding: 9px 24px;
     border-radius: 2px;
     height: 41px;
+    transition: all ease-in-out .2s;
+}
+button.admission-process-btn:hover{
+    cursor: pointer;
+    background-color: #fe8c01;
 }
 button.campus-tour-btn{
     color: #fff;
@@ -609,6 +615,12 @@ button.campus-tour-btn{
     font-size: .96rem;
     padding: 9px 24px;
     margin-left: 15px;
+    transition: all ease-in-out .2s;
+}
+button.campus-tour-btn:hover{
+    cursor: pointer;
+    color: #3e3934;
+    background-color: #fff
 }
 div.news{
     display: flex;
