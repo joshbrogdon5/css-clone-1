@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -16,6 +17,7 @@ nav.main-nav{
     display: flex;
     flex-direction: row;
     position: fixed;
+    z-index: 2;
 }
 div.navContent_container{
     margin: auto;
@@ -53,6 +55,7 @@ li.dropdown:hover .dropdown{
 a.main_a{
     margin: 5px;
     padding: 5px;
+    font-size: .9rem;
 }
 a.main_a:hover{
     cursor: pointer;
@@ -66,12 +69,13 @@ ul > li > a:hover{
 button.applybtn{
     background-color: #0090d9;
     color: #fff;
-    font-weight: 600;
+    font-weight: normal;
     border: none;
     border-radius: 2px;
     width: 130px;
     height: 40px;
     transition: background-color .3s, box-shadow .3s;
+    font-family: sans-serif;           
 }
 button.applybtn:hover{
     cursor: pointer;
@@ -117,7 +121,8 @@ button.learnFree{
     height: 41px;
     font-size: 1rem;
     font-weight: 550;
-    transition: background-color .3s, box-shadow .3s;       
+    transition: background-color .3s, box-shadow .3s;
+    font-family: sans-serif;       
 }
 button.learnFree:hover{
     background-color: #0097e3;
@@ -136,6 +141,7 @@ button.whoAreWe{
     font-size: 1rem;
     font-weight: 550;
     transition: background-color .3s, color .3s;    
+    font-family: sans-serif;           
 }
 button.whoAreWe:hover{
     cursor: pointer;
@@ -208,6 +214,8 @@ blockquote h2.content-section-title{
     margin-bottom: 5px;
     font-size: 2.25rem;
     line-height: 3.375rem;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
 }
 cite.dustin-cite{
     width: 100%;
@@ -234,6 +242,8 @@ h2.content-section-title{
     margin-bottom: 1.5rem;
     font-size: 2.25rem;
     line-height: 3.375rem;
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
 }
 p.content-section-intro{
     margin: 0 auto;
@@ -265,9 +275,15 @@ div.learning-container-green{
 }
 h1.learning-h1{
     font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+    font-family: 'Merriweather', serif;
 }
 h2.learning-h2{
     font-size: 1.125rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+    font-family: 'Merriweather', serif;
 }
 button.learn-button{
     border: 1px solid #fff;
@@ -275,16 +291,26 @@ button.learn-button{
     padding: 9px 24px;
     color: #fff;
     border-radius: 2px;
+    margin-top: 1.5rem;
+    transition: all ease-in-out .2s;
+    font-weight: bold;
+    font-size: .9rem;
+    font-family: sans-serif;
+}
+button.learn-button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #3d3935;
 }
 section.content-section-orange{
     flex-basis: 350px;
 }
 div.article-container-orange{
-    width: 60%;
     float: right;
 }
 div.text-container-orange{
     text-align: center;
+    width: 350px;
 }
 div.text-container-blue{
     text-align: center;
@@ -295,6 +321,7 @@ div.article-container-green{
 }
 div.text-container-green{
     text-align: center;
+    width: 380px;    
 }
 div.email-container{
     border: 1px solid #de7c01;
@@ -340,6 +367,11 @@ button.email-submit-btn{
     color: #fff;
     flex-basis: 30%;
     font-size: .875rem; 
+    transition: all ease-in-out .2s;
+}
+button.email-submit-btn:hover{
+    cursor: pointer;
+    background-color: #fe8c01;
 }
 div.email-terms{
     margin-top: 1.5rem;
@@ -353,11 +385,10 @@ div.quote-container-grey{
 }
 div.quote-container{
     display: flex;
-    /* flex-wrap: wrap; */
 }
 div.quote-item{
     background: #d0d0d0;
-    width: 33%;
+    width: 33.333%;
     margin: 0;
 }
 div.quote-item-reverse{
@@ -365,12 +396,23 @@ div.quote-item-reverse{
     flex-direction: column-reverse;
     margin: 0;
     background: #d0d0d0;    
-    width: 33%;
+    width: 33.333%;
 }
 img.quote-image{
     width: 100%;
+    display: block;
 }
 blockquote.quote-block{
+    min-height: 217px;
+    padding: 20px 20px 25px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    z-index: 1;
+}
+blockquote.quote-block-reverse{
     min-height: 217px;
     padding: 20px 20px 25px;
     text-align: center;
@@ -386,14 +428,13 @@ blockquote.quote-block::before{
     margin-left: -10px;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 10px solid #e2e2e2;
     border-bottom: 10px solid #d0d0d0;
     content: "";
     display: block;
     width: 0;
     height: 0;
 }
-blockquote.quote-item-reverse .quote-block::before{
+blockquote.quote-block-reverse::before{
     border: none;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
@@ -402,6 +443,9 @@ blockquote.quote-item-reverse .quote-block::before{
     display: block;
     width: 0;
     height: 0;
+    left: 47%;
+    position: absolute;
+    bottom: -5%
 }
 p.quote-message{
     width: 100%;
@@ -427,6 +471,11 @@ li.featured-item{
     width: 32%;
     margin-bottom: 10px;
     margin-top: 10px;
+    background: rgba(5,33,51,.4);
+    transition: background ease-in-out .2s;
+}
+li.featured-item:hover{
+    background-color: rgba(5,33,51,.8);
 }
 img.featured-section-background{
     position: absolute;
@@ -438,7 +487,7 @@ img.featured-section-background{
 a.featured-section{
     font-size: 1.125rem;
     color: #fff;
-    font-weight: bold;
+    font-weight: normal;
     text-shadow: 0 0 8px rgba(0,0,0,.8);
     display: flex;
     align-items: center;
@@ -500,7 +549,8 @@ div.news{
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: flex-start;
-    height: 194px;
+    height: 217px;
+    width: 994px;
 }
 div.news-itemDif{
     margin-right: .75rem;
@@ -509,7 +559,8 @@ div.news-itemDif{
     text-align: center;
     display: flex;
     flex-direction: column;
-    flex-basis: calc(20%);
+    /* flex-basis: calc(20%); */
+    width: 224px;
     margin-top: 1.5rem;
 }
 div.news-item{
@@ -517,7 +568,8 @@ div.news-item{
     text-align: center;
     display: flex;
     flex-direction: column;
-    flex-basis: calc(20%);
+    /* flex-basis: calc(20%); */
+    width: 224px;
     border-left: 1px solid #e2e2e2;
     margin-right: 1.5rem;
     margin-top: 1.5rem;
@@ -540,6 +592,13 @@ p.news-content{
     opacity: .8;
     font-family: sans-serif;
     font-size: .9rem;
+    width: 200px;
+}
+p.news-contentDif{
+    opacity: .8;
+    font-family: sans-serif;
+    font-size: .9rem;
+    width: 224px;
 }
 footer.footer{
     background-color: #0090d9;
