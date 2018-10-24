@@ -88,9 +88,11 @@ a.main_a-arrow{
 }
 a.main_a:hover{
     cursor: pointer;
+    color: #0097e3;
 }
 a.main_a-arrow:hover{
     cursor: pointer;
+    color: #0097e3;    
 }
 a.main_a-arrow::after{
     border-left: 4px solid transparent;
@@ -105,6 +107,24 @@ a.main_a-arrow::after{
     font-size: 5px;
     margin: 0 7px;
     position: relative;
+}
+span.dropdown-span{
+    text-transform: uppercase;
+    font-size: .75rem;
+    letter-spacing: 1.5px;
+    color: #3e3934;
+    font-weight: bold;
+}
+li.submenu{
+    padding: 10px 0;
+}
+ul.submenu-ul{
+    border-top: 1px solid #cccccc;  
+    margin-right: 15px;   
+}
+li.nested-list-item{
+    padding: 10px;
+    font-size: .9rem;
 }
 ul > li{
     list-style-type: none;    
