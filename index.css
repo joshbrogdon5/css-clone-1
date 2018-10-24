@@ -603,6 +603,33 @@ nav.footer-nav{
     justify-content: space-between;
     color: #fff;
 }
+div.footer-column{
+    width: 250px;
+}
+div.footer-column-reviews{
+    width: 350px;
+}
+ul.footer-listDif{
+    display: flex;
+    justify-content: space-between;
+}
+div.footer-column-social{
+    margin-top: 1.5rem;
+}
+span.footer-list-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    margin-bottom: 1.05rem;    
+}
+li.footer-item:first-child{
+    padding-top: 0;
+}
+li.footer-item{
+    padding-top: 1.25rem;
+    font-size: .95rem;
+}
 li.footer-item-logo{
     height: 35px;
     width: 35px;
@@ -610,8 +637,25 @@ li.footer-item-logo{
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-img.icon{
-    height: 30px;
-    width: 30px;
+img.facebook-icon{
+    height: 25px;
+    width: 25px;
+}
+img.twitter-icon{
+    height: 25px;
+    width: 25px;
+}
+img.youtube-icon{
+    height: 16px;
+    width: 16px;
+}
+img.instagram-icon{
+    height: 16px;
+    width: 16px;
+}
+img.linkedin-icon{
+    height: 20px;
+    width: 20px;
 }
