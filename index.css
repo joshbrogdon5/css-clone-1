@@ -18,6 +18,7 @@ nav.main-nav{
     flex-direction: row;
     position: fixed;
     z-index: 2;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.25);
 }
 div.navContent_container{
     margin: auto;
